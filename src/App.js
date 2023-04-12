@@ -118,7 +118,7 @@ class App extends Component {
           <div id="quote-box" className="blockquote-wrapper">
 
             <div key={"img" + this.state.indexImg} className="bg"
-              style={{ backgroundImage: `linear-gradient(to bottom, rgba(255, 2, 252, 0), rgba(0, 0, 0, 0.73)), url(/bg/${images[this.state.indexImg]})` }}></div>
+              style={{ backgroundImage: `linear-gradient(to bottom, rgba(255, 2, 252, 0), rgba(0, 0, 0, 0.73)), url(bg/${images[this.state.indexImg]})` }}></div>
 
             <div className="blockquote" key={this.state.index}>
               <span className="quotes">‟</span>
